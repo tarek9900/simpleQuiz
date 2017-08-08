@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <lib.tarek.simplequiz.RevealFrameLayout
+        android:id="@+id/fab_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="13dp"
+            android:layout_marginEnd="30dp"
+            android:src="@drawable/ic_correct"
+            android:elevation="0dp"
+            android:scaleType="center"/>
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/falseFloatButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:scaleType="center"
+            android:layout_marginStart="28dp"
+            android:src="@drawable/ic_false"
+            android:elevation="0dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="13dp"
+
+            android:layout_alignParentStart="true" />
+
+
+
+
+</RelativeLayout>

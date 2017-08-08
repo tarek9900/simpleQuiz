@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RevealFAB">
+        <attr name="fab_color" format="integer" />
+        <attr name="fab_icon" format="integer" />
+    </declare-styleable>
+
+
+</resources>
